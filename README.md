@@ -1,1 +1,1 @@
-## Test Cordova Adaptive Icons on Android
+Test Cordova Adaptive Icons on Android
