@@ -5,12 +5,13 @@ xmlns:android="http://schemas.android.com/apk/res/android"
     
     <name>Cordova Adaptive Icons Plugin</name>
 
-    <platform name="android">
-      <icon background="res/ic_launcher_foreground_HDPI.png" density="ldpi" foreground="res/ic_launcher_HDPI.png" />
-      <icon background="res/ic_launcher_foreground_MDPI.png" density="mdpi" foreground="res/ic_launcher_MDPI.png" />
-      <icon background="res/ic_launcher_foreground_HDPI.png" density="hdpi" foreground="res/ic_launcher_HDPI.png" />
-      <icon background="res/ic_launcher_foreground_XHDPI.png" density="xhdpi" foreground="res/ic_launcher_XHDPI.png" />
-      <icon background="res/ic_launcher_foreground_XXHDPI.png" density="xxhdpi" foreground="res/ic_launcher_XXHDPI.png" />
-      <icon background="res/ic_launcher_foreground_XXXHDPI.png" density="xxxhdpi" foreground="res/ic_launcher_XXXHDPI.png" />
-    </platform>
+   <platform name="android">
+    <icon src="res/ic_launcher_LDPI.png" density="ldpi" />
+    <icon src="res/ic_launcher_MDPI.png" density="mdpi" />
+    <icon src="res/ic_launcher_HDPI.png" density="hdpi" />
+    <icon src="res/ic_launcher_XHDPI.png" density="xhdpi" />
+    <icon src="res/ic_launcher_XXHDPI.png" density="xxhdpi" />
+    <icon src="res/ic_launcher_XXXHDPI.png" density="xxxhdpi" />
+</platform>
+           
 </plugin>
