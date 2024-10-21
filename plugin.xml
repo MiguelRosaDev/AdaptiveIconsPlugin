@@ -5,7 +5,11 @@ xmlns:android="http://schemas.android.com/apk/res/android"
     
     <name>Cordova Adaptive Icons Plugin</name>
 
-   <platform name="android">
+    <resources>
+      <color name="background">#0ca569</color>
+    </resources>
+           
+<platform name="android">
     <icon src="res/ic_launcher_LDPI.png" density="ldpi" />
     <icon src="res/ic_launcher_MDPI.png" density="mdpi" />
     <icon src="res/ic_launcher_HDPI.png" density="hdpi" />
