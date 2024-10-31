@@ -10,16 +10,12 @@ xmlns:android="http://schemas.android.com/apk/res/android"
     </resources>
            
 <platform name="android">
-    <icon src="res/ic_launcher_LDPI.png" density="ldpi" />
-    <icon src="res/ic_launcher_MDPI.png" density="mdpi" />
-    <icon src="res/ic_launcher_HDPI.png" density="hdpi" />
-    <icon src="res/ic_launcher_XHDPI.png" density="xhdpi" />
-    <icon src="res/ic_launcher_XXHDPI.png" density="xxhdpi" />
-    <icon src="res/ic_launcher_XXXHDPI.png" density="xxxhdpi" />
-
-    <resource-file src="res/ic_launcher_LDPI.png" target="app/src/main/res/mipmap-anydpi-v26/ic_launcher_LDPI.png" />    
-    <resource-file src="res/drawable/ic_launcher_foreground.png" target="app/src/main/res/drawable/ic_launcher_foreground.png" />
-    <resource-file src="res/drawable/ic_launcher_background.png" target="app/src/main/res/drawable/ic_launcher_background.png" />
+    <icon src="res/mipmap-ldpi-v4/ic_launcher.png" density="ldpi" />
+    <icon src="res/mipmap-mdpi-v4/ic_launcher.png" density="mdpi" />
+    <icon src="res/mipmap-hdpi-v4/ic_launcher.png" density="hdpi" />
+    <icon src="res/mipmap-xhdpi-v4/ic_launcher.png" density="xhdpi" />
+    <icon src="res/mipmap-xxhdpi-v4/ic_launcher.png" density="xxhdpi" />
+    <icon src="res/mipmap-xxxhdpi-v4/ic_launcher.png" density="xxxhdpi" />
 </platform>
            
 </plugin>
